@@ -10,7 +10,12 @@ public class Patron {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String name;
-    private String contactInfo;
+    @Column(nullable = false, unique = true)
+    private String username;
+    @Column(nullable = false, unique = true)
+    private String password;
+    @Column(nullable = true, unique = true)
+    private String phoneNumber;
+    @Column(nullable = true)
+    private String address;
 }
