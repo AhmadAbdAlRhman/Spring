@@ -1,0 +1,25 @@
+مشروع نظام إدارة المكتبة  
+المتطلبات التقنية
+
+Java 17+
+
+Spring Boot 3+
+
+Spring Data JPA
+
+Spring Security (للحماية)
+
+MySQL 
+
+Lombok (لتقليل الكود المكرر)
+
+Spring Cache (لتحسين الأداء)
+
+ تشغيل التطبيق محليًا
+ تأكد من تثبيت Java وMySQL.
+
+قم بتحديث application.properties لإعداد قاعدة البيانات.
+
+استخدم mvn spring-boot:run لتشغيل التطبيق.
+
+استخدم Postman أو Swagger لاختبار الـ API.
